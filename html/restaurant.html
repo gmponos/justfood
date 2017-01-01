@@ -1,0 +1,1285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Index Page</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" href="css/site2.css">    
+<script src="js/search/jquery.min.js" type="text/javascript"></script> 
+<script async="" type="text/javascript" src="js/search/pubads_impl_31.js"></script>
+    <script type="text/javascript" async="" src="js/search/mixpanel-2.1.min.js"></script>   
+    <script src="js/search/trustBanner.min.js"></script>  
+    <script src="js/search/jquery.min.js" type="text/javascript"></script> 
+    
+    <!---------image slider--------------->
+<style>
+#cycler{position:relative;}
+#cycler img{position:absolute;z-index:1}
+#cycler img.active{z-index:3}
+#apDiv1 {
+	position:absolute;
+	width:472px;
+	height:115px;
+	z-index:4;
+	top: 23px;
+}
+</style>
+
+<script>
+function cycleImages(){
+      var $active = $('#cycler .active');
+      var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+      $next.css('z-index',2);//move the next image up the pile
+      $active.fadeOut(1500,function(){//fade out the top image
+	  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+          $next.css('z-index',3).addClass('active');//make the next image the top one
+      });
+    }
+
+$(document).ready(function(){
+// run every 7s
+setInterval('cycleImages()', 4000);
+})
+</script>
+</head>
+
+<body>
+<div class="header" >
+<div class="logo">
+Logo
+</div>
+<div class="social" style="margin-top:-27px;">
+<img src="images/app.png"/>
+&nbsp;&nbsp;&nbsp;<img src="images/apple.png"/>
+</div>
+<div class="button" style="margin-top:-35px;">
+<img src="images/head_button.png"/>
+<a href="" class="topbutton" style="top:0px;">Select Language </a>
+
+</div>
+<span class="log">Login/Signup</span>
+<div class="social1">
+<span class="imgspan"><img src="images/twit.png" style="width:30px; height:30px;" /></span>
+<span class="imgspan"><img src="images/oo.png" style="width:30px; height:30px;"  /></span>
+<span class="imgspan"><img src="images/t2.png" style="width:30px; height:30px;" /></span>
+<span class="imgspan"><img src="images/fa.png" style="width:30px; height:30px;" /></span>
+<span class="imgspan"><img src="images/link.png" style="width:30px; height:30px;"/></span>
+</div>
+</div>
+<div class="container" style="height:auto;">
+<div class="middlemiddlecontainer">
+ <div>
+                <div style="margin-bottom:10px; font-size:14px; font-style:italic; width:400px;" > <a href="" style="text-decoration:none; padding:2px; font-size:14px;">Home &raquo;</a> <a href="" style="text-decoration:none; padding:2px; font-size:14px;">Noida Sector-12 &raquo;</a> Pizza Zone</div>
+                    <div id="single-outlet" class="single" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+                        <header>
+                           
+                           
+                            <div class="clearfix"></div>
+                            <div class="item-cover">
+                            
+                            <div id="apDiv1">
+<div class="pull-left2" style="padding:5px;">
+                                <h1 itemprop="itemreviewed">Pizza Zone, Noida</h1>
+                                <p class="meta">
+                                    <span class="item-address"><span aria-hidden="true" class="icon-location"></span>Sector-12, Noida</span>
+                                    <span class="item-cuisine"><span aria-hidden="true" class="icon-food"></span>Fast Food, Pizza</span>
+                                    <span class="item-cuisine"><span aria-hidden="true" class="icon-phone"></span> 120-111-486479</span>
+                                </p>
+                                 <div class="pull-right text-right "itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating" >
+                                <span class="item-star-rating" data-rating="4" title="4 out of 5"></span>
+                                <span class="item-rating">Very Good 4</span><span hidden><span itemprop="average">4</span>out of<span itemprop="best">5</span></span>
+                                <span class="item-rating-count"><em>based on</em> <strong itemprop="votes">3</strong> reviews.</span>
+                            </div>
+                  </div>
+                            </div>
+                            <div id="cycler" style="border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; ">
+<img class="active" src="images/menu/menubanner.jpg" alt="My image"  />
+
+<img src="images/menu/menubanner2.jpg" alt="My image" />
+
+                               
+</div>
+ <img itemprop="photo" src="images/menu/1.jpg" alt="Logo" class="item-logo" />
+                                
+                            </div>
+                      </header>
+                        
+                        
+                        <br /><br /><br /><br /><br /><br /><br /><br />
+                        <article>
+                            <ul class="item-tabs v2">
+                                    <li class="">
+                                    	<a class="no-scroll" data-toggle="tab" href="#reservation">
+                                        <span aria-hidden="true" class="icon-dine-in"></span> Reservation
+                                        </a>
+                                    </li>
+                                    <li id="ctl00_BodyContent_liMenu" class="active">
+                                    	<a class="no-scroll" data-toggle="tab" href="#menu">
+                                        <span aria-hidden="true" class="icon-menu"></span> Delivery
+                                        </a>
+                                        </li>
+                                    <li>
+                                    	<a class="no-scroll" data-toggle="tab" href="#reviews">
+                                        <span aria-hidden="true" class="icon-star"></span> Reviews
+                                        </a>
+                                        </li>
+                                        
+                                        <li>
+                                    	<a class="no-scroll" data-toggle="tab" href="#map">
+                                        <span aria-hidden="true" class="icon-location"></span> Map
+                                        </a>
+                                        </li>
+                                    <li id="ctl00_BodyContent_liGallery">
+                                    	<a class="no-scroll" data-toggle="tab" href="#pictures">
+                                    	<span aria-hidden="true" class="icon-picture"></span> Gallery
+                                        </a>
+                                        </li> 
+                            </ul>
+                            
+                            <div class="tab-content clear menu-content">
+                                
+                                <div class="tab-pane fade active in" id="menu">
+                                    <div class="row-fluid">
+
+
+                                        <div class="">
+                                            <div class="span12 pos-rel">
+                                                
+                                             
+                                                
+                                            <div class="tabbable tabs-left tabs2">
+                                                <div class="newpin newpin2 css3-trans">
+                                                <ul class="nav nav-pills nav-stacked pull-left">
+                                                    <li><a class="no-scroll"  href="#deals" style="background: rgba(200,200,200,0.7); color:#AE0000;">Categories</a></li>
+                                                    
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#deals">Deals</a>
+                                                         </li>
+                                                    
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#starterssalad">Starters & Salad</a>
+                                                        </li>
+                                                    
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Pizza</a>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Burger</a>
+                                                        </li>
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Chicken</a>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Salad</a>
+                                                        </li>
+                                                        
+                                                        
+                                                         <li>
+                                                        	<a class="no-scroll"  href="#pizza">Desserts</a>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Omelettes</a>
+                                                        </li>
+                                                        
+                                                        
+                                                         <li>
+                                                        	<a class="no-scroll"  href="#pizza">Pasta</a>
+                                                        </li>
+                                                        
+                                                        <li>
+                                                        	<a class="no-scroll"  href="#pizza">Starters</a>
+                                                        </li>
+                                                        
+                                                        
+                                                        
+                                                       
+                                                    
+                                                </ul>
+                                                    </div>
+                                                <div class="tab-content">
+                                                    
+                                                    <div class="tab-pane active in fade span7" id='deals'>
+                                                        <div class="heading_cover"><h4>Deals</h4></div>
+                                                        <p></p>
+                                                        
+                                                        
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Deal 1
+                                                                <span aria-hidden='true' title='Popular Item' class='icon-star' style='color:#f86e01;'></span>
+                                                                <small>1 Regular Pizza, 2 Soft Drinks</small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24904" />
+                                                                       <input type="hidden" id="ItemID" value="18142" />
+                                                                       <input type="hidden" id="ItemPrice" value="555" />   
+                                                                         
+                                                                         <span class="subitem-name">Deal </span>
+                                                                         
+                                                                         <span class="subitem-price">Rs 555<a href="#" class="add-to-cart  hide" data-role="modal">
+                                                                         <span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a>
+                                                                         </span>
+                                                                         </span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Deal 2
+                                                                <span aria-hidden='true' title='Popular Item' class='icon-star' style='color:#f86e01;'></span>
+                                                                <small>1 Large Pizza, 1 Drink 1.5 Liter</small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24905" />
+                                                                       <input type="hidden" id="ItemID" value="18143" />
+                                                                       <input type="hidden" id="ItemPrice" value="777" />   
+                                                                         
+                                                                         <span class="subitem-name">Deal </span>
+                                                                         <span class="subitem-price">Rs 777<a href="#" class="add-to-cart  hide" data-role="modal">
+                                                                         <span aria-hidden="true" class="icon-plus" title="Add to Order">
+                                                                         </span>
+                                                                         </a>
+                                                                         </span>
+                                                                         </span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Deal 3
+                                                                <span aria-hidden='true' title='Popular Item' class='icon-star' style='color:#f86e01;'></span>
+                                                                <small>2 Large Pizza, 1.5 liter Drink</small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="25990" />
+                                                                       <input type="hidden" id="ItemID" value="18144" />
+                                                                       <input type="hidden" id="ItemPrice" value="1111" />   
+                                                                         
+                                                                         <span class="subitem-name">Deal </span>
+                                                                         <span class="subitem-price">Rs 1111
+                                                                         <a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span>
+                                                                         </a>
+                                                                         </span>
+                                                                         </span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Family Deal
+                                                                <span aria-hidden='true' title='Popular Item' class='icon-star' style='color:#f86e01;'></span>
+                                                                <small>5 Large Pizza, 1 Jumbo Drink</small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="25994" />
+                                                                       <input type="hidden" id="ItemID" value="18145" />
+                                                                       <input type="hidden" id="ItemPrice" value="2222" />   
+                                                                         
+                                                                         <span class="subitem-name">Deal </span>
+                                                                         <span class="subitem-price">Rs 2222
+                                                                         <a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order">
+                                                                         </span>
+                                                                         </a>
+                                                                         </span>
+                                                                         </span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            
+                                                        
+                                                    </div>
+                                                   
+                                                    <div class="tab-pane active in fade span7" id='starterssalad'>
+                                                        <div class="heading_cover"><h4>Starters & Salad</h4></div>
+                                                        <p></p>
+                                                        
+                                                        
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Cheesy Garlic Bread
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24898" />
+                                                                       <input type="hidden" id="ItemID" value="18136" />
+                                                                       <input type="hidden" id="ItemPrice" value="90" />   
+                                                                         
+                                                                         <span class="subitem-name">R</span><span class="subitem-price">Rs 90<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Chicken Wings
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="25511" />
+                                                                       <input type="hidden" id="ItemID" value="18137" />
+                                                                       <input type="hidden" id="ItemPrice" value="150" />   
+                                                                         
+                                                                         <span class="subitem-name">6 Pcs</span><span class="subitem-price">Rs 150<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Garlic Bread Plain
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24900" />
+                                                                       <input type="hidden" id="ItemID" value="18138" />
+                                                                       <input type="hidden" id="ItemPrice" value="70" />   
+                                                                         
+                                                                         <span class="subitem-name">R</span><span class="subitem-price">Rs 70<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Nuggets
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="25516" />
+                                                                       <input type="hidden" id="ItemID" value="18139" />
+                                                                       <input type="hidden" id="ItemPrice" value="150" />   
+                                                                         
+                                                                         <span class="subitem-name">6 Pcs</span><span class="subitem-price">Rs 150<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Pineapple Chicken Salad
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24902" />
+                                                                       <input type="hidden" id="ItemID" value="18140" />
+                                                                       <input type="hidden" id="ItemPrice" value="200" />   
+                                                                         
+                                                                         <span class="subitem-name">R</span><span class="subitem-price">Rs 200<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Spicy Chicken Sandwich
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24903" />
+                                                                       <input type="hidden" id="ItemID" value="18141" />
+                                                                       <input type="hidden" id="ItemPrice" value="200" />   
+                                                                         
+                                                                         <span class="subitem-name">R</span><span class="subitem-price">Rs 200<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                    </div>
+                                                   
+                                                    <div class="tab-pane active in fade span7" id='pizza'>
+                                                        <div class="heading_cover"><h4>Pizza</h4></div>
+                                                        <p></p>
+                                                        
+                                                        
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Cheesy Zone
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24878" />
+                                                                       <input type="hidden" id="ItemID" value="18126" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24879" />
+                                                                       <input type="hidden" id="ItemID" value="18126" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Chicken Fajita
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24880" />
+                                                                       <input type="hidden" id="ItemID" value="18127" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24881" />
+                                                                       <input type="hidden" id="ItemID" value="18127" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Chicken Tandori
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24882" />
+                                                                       <input type="hidden" id="ItemID" value="18128" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24883" />
+                                                                       <input type="hidden" id="ItemID" value="18128" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Chicken Tikka
+                                                                <span aria-hidden='true' title='Popular Item' class='icon-star' style='color:#f86e01;'></span>
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24884" />
+                                                                       <input type="hidden" id="ItemID" value="18129" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24885" />
+                                                                       <input type="hidden" id="ItemID" value="18129" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Fiesta Zone
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24886" />
+                                                                       <input type="hidden" id="ItemID" value="18130" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24887" />
+                                                                       <input type="hidden" id="ItemID" value="18130" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Hot Pepperoni
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24888" />
+                                                                       <input type="hidden" id="ItemID" value="18131" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24889" />
+                                                                       <input type="hidden" id="ItemID" value="18131" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large </span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+
+                                                                Pepperoni Classic
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24890" />
+                                                                       <input type="hidden" id="ItemID" value="18132" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24891" />
+                                                                       <input type="hidden" id="ItemID" value="18132" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large </span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Sicilian Zone
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24892" />
+                                                                       <input type="hidden" id="ItemID" value="18133" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular </span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24893" />
+                                                                       <input type="hidden" id="ItemID" value="18133" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large </span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Supremo Zone
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24894" />
+                                                                       <input type="hidden" id="ItemID" value="18134" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24895" />
+                                                                       <input type="hidden" id="ItemID" value="18134" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                            <div class="menu-item">
+                                                            <label class="menu-item-name">
+                                                                
+                                                                
+                                                                
+                                                                Veggie Zone
+                                                                
+                                                                <small></small>
+                                                            </label>
+                                                            <span class="menu-subitems">
+                                                                
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24896" />
+                                                                       <input type="hidden" id="ItemID" value="18135" />
+                                                                       <input type="hidden" id="ItemPrice" value="620" />   
+                                                                         
+                                                                         <span class="subitem-name">Regular</span><span class="subitem-price">Rs 620<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                                       
+                                                                     <span class="menu-subitem">
+                                                                      <input type="hidden" id="SizeID" value="24897" />
+                                                                       <input type="hidden" id="ItemID" value="18135" />
+                                                                       <input type="hidden" id="ItemPrice" value="820" />   
+                                                                         
+                                                                         <span class="subitem-name">Large</span><span class="subitem-price">Rs 820<a href="#" class="add-to-cart  hide" data-role="modal"><span aria-hidden="true" class="icon-plus" title="Add to Order"></span></a></span></span>
+                                                                   
+                                                            </span>
+                                                             
+                                                        </div>
+                                                        
+                                                    </div>
+                                                   
+                                                </div>
+                                            </div>
+
+
+
+                                             <div class="cartpinned css3-trans">
+                                            <div id="CartWidget" class="">
+                                                                                          
+                                            </div>
+
+                                           
+                                            <div class="widget widget-cart boxed">
+                
+                <h4>Your Order <span class="icon-delivery pull-right" title="Delivery" aria-hidden="true"></span></h4>
+                <div class="widget-info">
+
+                    <ul class="inline clearfix">
+                        <li>
+                            <div class="input-prepend">
+                                <span class="add-on">
+                                    <span class="icon-location" aria-hidden="true"></span>
+                                </span>
+                                <select class="span12 checkselect" id="DeliveryArea">
+                                    <option value="">Select Your Area</option>
+                                    <option>Sector-12</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon-time pull-left" title="Delivery Time" aria-hidden="true"></span>
+                            <span class="inf" id="deliverytime">30 mins</span>
+                        </li>
+                        <li>
+                            <span class="icon-delivery pull-left" title="Delivery Fee" aria-hidden="true"></span>
+                            <span class="inf">Free</span>
+                        </li>
+                        <li>
+                            <span class="icon-wallet pull-left" title="Minimum Order" aria-hidden="true"></span>
+                            <span class="inf">Rs. 500</span>
+                            <input type="hidden" id="MinOrder" value="500">
+                        </li>
+                    </ul>
+                </div>
+                <div class="cart-items">
+                    <p class="note"><img src="images/menu/arrow.png"> <b>Start by adding (<span aria-hidden="true" class="icon-plus"></span>) items to order!</b> </p>
+                    
+
+                </div>
+                <div class="delivery-box cart-total">
+                    <div class="hide extrascont">
+                    <div class="dlbox-item"><span>Sub-total:</span><strong class="text-right">Rs. 0</strong></div>
+                    <div class="dlbox-item"><span id="outletdiscount">Discount (0%):</span><strong class="text-right">Rs. 0</strong></div>
+                        
+                        <input type="hidden" id="outlettax" value="0">
+                        <input type="hidden" id="outletdiscountvalue" value="0">
+                    <div class="dlbox-item"><span>Delivery fee:</span><strong class="text-right">Rs. 0</strong></div>
+                         <input type="hidden" id="deliveryfeenew" value="0">
+                        </div>
+                    <div class="total-row"><span>Total:</span><strong id="TotalAmount" class="text-right">Rs. 0</strong></div>
+                </div>
+            </div>
+                                            
+                                            
+                                            
+                                            
+                
+                
+                
+
+                                            <div class="text-center ">
+                                                
+                                               <!-- <button class="btn btn-large btn-block" id="Button1" disabled>Restaurant closed</button>                                            
+                                                <small>Restaurant is open: </small><br/>
+                                                <small>Weekdays: 11AM - 12AM<br />Weekend: 11AM - 12AM</small><br />
+                                                <small><b><a href="/karachi/delivery">Browse OPEN restaurants</a></b></small>
+                                                -->
+
+                                            </div>
+
+                                            <!---->
+
+
+
+                                        </div>
+                                         </div>
+                                       
+                                        
+                                    </div>
+                                </div>
+                                </div>
+
+                                <input type="hidden" id="outletid" value="2413" />
+                                <input type="hidden" id="deliveryfee" value="0" />
+                                <input type="hidden" id="outletname" value="Pizza Zone, Gulshan" />
+                                
+                                <input type="hidden" id="city" value="Karachi" />
+                                
+                                <div class="tab-pane in  fade" id="reservation">
+                                    <div class="row-fluid">
+                                        <div class="span8">
+                                             
+
+                                        
+                                        <div class="">
+                                         
+                                            <h4>Why not try ...</h4>
+                                            
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="/karachi/food-2night-cantt"><img src="images/menu/11.jpg" alt="" /></a>
+                                                             <strong>Free Reservation</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="#"><img src="images/menu/12.jpg" alt="" /></a>
+                                                             <strong>Free Reservation</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="#"><img src="images/menu/13.jpg" alt="" /></a>
+                                                             <strong>Free Reservation</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="#"><img src="images/menu/14.jpg" alt="" /></a>
+                                                             <strong>Free Reservation</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="#"><img src="images/menu/15.jpg" alt="" /></a>
+                                                             <strong>Free Reservation</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                               <div class="span3">
+                                                    <div class="deal-item-inner">
+                                                        <div class="deal-icon icon-scissors"></div>
+                                                        <div class="deal-shadow">
+                                                            <a href="#"><img src="images/menu/16.jpg" alt="" /></a>
+                                                             <strong>5% Discount</strong>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                        </div>
+                                        
+                                        </div>
+                                        <div class="span4">
+                                            <div class="widget widget-info boxed">
+                                                
+                                                
+                                                <ul class="inline clearfix">
+                                                    <li>
+                                                        <label>Phone</label>
+                                                        <span>021-111-486479</span>
+                                                    </li>
+
+                                                    <li>
+                                                        <label>Address</label>
+                                                        <span>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum </span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Cuisine</label>
+                                                        <span>
+                                                        <a href='#'>Fast Food</a>,  
+                                                        <a href='#'>Pizza</a>
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Budget</label>
+                                                        <span>Rs. 200-399 per head </span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Serves</label>
+                                                        <span><a href='#'>Dinner</a>,  
+                                                        <a href='#'>Lunch</a>
+                                                        </span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Hours</label>
+                                                        
+                                                        <span>Weekdays: 11AM - 12AM<br />Weekend: 11AM - 12AM</span>
+                                                        
+                                                    </li>
+                                                    <li>
+                                                        <label>Facilities</label>
+                                                        <span>
+                                                        <a href='#'>Air Condition</a>,  
+                                                        <a href='#'>DineIn</a>,  
+                                                        <a href='#'>Smoking Allowed</a>,  
+                                                        <a href='#'>Takeaway</a>,  
+                                                        <a href='#'>Takes Reservations</a></span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Seating</label>
+                                                        <span>Smoking, Non-Smoking</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Groups</label>
+                                                        <span>50+ guests, advance may apply</span>
+                                                    </li>
+                                                    <li>
+                                                        <label>Tags</label>
+                                                        <span>
+                                                        <strong><a href='#'>Deals</a></strong>, 
+                                                        <strong><a href='#'>Menu</a></strong>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="tab-pane in  fade" id="map">
+                                   <div id="googleMap" style="width:860px;height:550px;"></div> 
+                                </div>
+
+                                
+                                <div class="tab-pane fade" id="reviews">
+                                    <div class="row-fluid" style="position:relative;">
+                                        
+                                        <div class="span8 comments">
+                                            <h4>2 Reviews</h4>
+                                            <ul class="comments-list clearfix">
+                                            	
+                                                <li class="author">
+                                            		<!-- avatar -->
+                                            		<div class="comment-avatar">
+                                            			<img alt="Nouman Ahmed Review" src="images/menu/anoymous.png" height="74" width="74">
+                                            		</div>
+                                            		<!-- comment content -->
+                                            		<div class="comment-body">
+                                            			<!-- author and date -->
+                                            			<div class="comment-meta">
+                                            				<cite>Raj Singh</cite>
+                                            				<span>
+                                            					4/3/2012 9:05:18 PM
+                                            				</span>
+                                            			</div>
+                                            			average pizza but its dressings are awesome
+                                                        <span class="item-star-rating" title="5 out of 5" data-rating="5"></span>
+                                            		</div>
+                                            	</li>
+
+                                           
+                                                <li class="author">
+                                            		<!-- avatar -->
+                                            		<div class="comment-avatar">
+                                            			<img alt=" Review" src="images/menu/anoymous.png" height="74" width="74">
+                                            		</div>
+                                            		<!-- comment content -->
+                                            		<div class="comment-body">
+                                            			<!-- author and date -->
+                                            			<div class="comment-meta">
+                                            				<cite></cite>
+                                            				<span>
+                                            					3/19/2012 2:33:16 PM
+                                            				</span>
+                                            			</div>
+                                            			Good pizza just like pizza hut but cheaper...
+                                                        <span class="item-star-rating" title="4 out of 5" data-rating="4"></span>
+                                            		</div>
+                                            	</li>
+
+                                           
+
+                                            </ul>
+                                        </div>
+                                        <div class="cartpinned css3-trans">
+                                            
+
+                                            <h4>Write a Review</h4>
+                                            
+                                            <div class="review-form fox validationGroup" id="review-form">
+                                                <div class="input-prepend span12 alpha">
+                                                    <span class="add-on">
+                                                    <span aria-hidden="true" class="icon-user"></span>
+                                                    </span>
+                                                    <input class="span10 required" type="text" id="txtName" placeholder="Enter your full name"  value=""/>
+                                                </div>
+                                                
+                                                
+                                                <div class="input-prepend span12 alpha">
+                                                    <span class="add-on">
+                                                    <span aria-hidden="true" class="icon-phone"></span>
+                                                    </span>
+                                                    <input class="span10 required number" type="text" id="txtMobile" placeholder="Enter your cell number"  data-toggle="tooltip" data-placement="bottom" title="Must match with reservation history."  value="" />
+                                                </div>
+                                                
+                                               <!-- <label class="rating-label">Rate your experience <strong>Very Good</strong></label>
+                                                <div class="experience-slider noUiSlider"></div>-->
+                                                <label>Review</label>
+                                                <textarea class="span11 required" rows="5" id="txtReview" placeholder="Share your experience"></textarea>
+                                                <div class="text-right buttons">
+                                                    <button id="btn-review" type="button" class="btn btn-danger btn-large">Submit review</button>
+                                                </div>
+                                            </div>
+                                            <div class="alert alert-block hide" id="review-thankyou" style="display:none;">
+                                                <h4>Thanks {Name},</h4>
+                                                <p>We appreciate you sharing your experience. It is of great help to food lovers like yourself.</p>
+                                                <p>Your review is pending approval and will be approved shorly.</p>
+                                            </div>
+
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                                 
+
+                                <div class="tab-pane fade" id="pictures">
+                                    <div id="rg-gallery" class="rg-gallery">
+                                    	<div class="rg-thumbs">
+                                    		<div class="es-carousel-wrapper">
+                                    			<div class="es-nav">
+                                    				<span class="es-nav-prev">
+                                    					Previous
+                                    				</span>
+                                    				<span class="es-nav-next">
+                                    					Next
+                                    				</span>
+                                    			</div>
+                                    			<div class="es-carousel">
+                                    				<ul>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/1small.jpg" data-large="images/menu/1large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/2small.jpg" data-large="images/menu/2large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/3small.jpg" data-large="images/menu/3large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/4small.jpg" data-large="images/menu/4large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/5small.jpg" data-large="images/menu/5large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/6small.jpg" data-large="images/menu/6large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    					<li><a href="#" class="no-scroll"><img width="64" height="38" src="images/menu/7small.jpg" data-large="images/menu/7large.jpg" alt="" data-description="Lorem IpsumLorem Ipsum" /></a></li>
+                                                        
+                                    			    </ul>
+                                    			</div>
+                                    		</div>
+                                    	</div>
+                                    </div>
+                                    <!-- rg-gallery -->
+                                </div>
+
+                                
+                            </div>
+                        </article>
+                    </div><!-- /single -->
+				</div>  
+
+
+
+
+
+</div>
+
+</div>
+<div style="margin-top:80px;"></div>
+<div class="footer">
+
+<div class="footerup"  style="float:left; margin-left:39px;">
+<h3 style="margin-left:20px;">Subscribe to our newsletter</h3>
+<form id="" action="" method="" >
+<input type="text" placeholder="  Enter your address " style="font-weight:bold; font-size:14px; color:#000000;"/ > 
+<input type="submit" value="Sign up now" id="bigbutton" style="width:160px; height:47px; margin-left:14px;"/>
+</form>
+</div>
+<div class="footerup" style="float:left;">
+<ul>
+<li><span style="margin:0px 0px 0px 30px; font-size:12px;">Don't Miss Out On Our Great Offers</span></li>
+<li><span style="margin:0px 0px 0px 30px; font-size:12px;">Receive Deals From All Our Top Restaurants Via E-mail</span></li>
+</ul>
+</div>
+
+<div class="footer2">
+<ul>
+<span>Get in touch</span><br />
+<li><img src="images/t1.png" /></li>
+<li><img src="images/01.png"/></li>
+<li><img src="images/t3.png" /></li>
+<li><img src="images/f1.png" /></li>
+<li><img src="images/link1.png" /></li>
+</ul>
+</div>
+
+<div style="border-bottom: 1px #444444 solid;position: relative;top: 146px;width: 1073px;margin-left: 130px;">
+</div>
+<div class="footer3" style="float:left; margin-right:350px;" >
+<ul style="float:left; margin-top:-27px; ">
+<li style="margin-left:145px;">Who We Are</li>
+<li style="margin-left:150px;">Work With Us</li> 
+<li style="margin-left:155px;">Connect With Us</li>
+</ul></div>
+<div class="second" style="float:left;">
+<ul>
+<li>Mosctow</li>
+<li>St. Petersburg</li>
+<li>Samara</li>
+<li>Novosibirsk</li>
+<li>Krasnodar</li>
+<li>Tol'yati</li>
+<li>Chelyabinsk</li>
+</ul>
+
+</div>
+<div class="second" style="float:left;">
+<ul>
+<li>European</li>
+<li>Sandwiches</li>
+<li>Russian</li>
+<li>Noodles</li>
+<li>Pies</li>
+<li>Desserts</li>
+<li>Grocery</li>
+</ul>
+</div>
+
+<div class="second" style="float:left;">
+<ul>
+<li>Connect</li>
+<li>FAQ</li>
+<li>Privacy Policy</li>
+<li>Suggest A Restaurant</li>
+<li>Send Feedback</li>
+</ul>
+</div>
+<div class="second" style="float:left;">
+<img src="images/facebookap.png" style="margin: -28px 0px 0px 62px;"/>
+</div>
+
+</div>
+<div align="center" style="background:#333333; color:#FFFFFF;">all reserved copyright 2013-14 Php Expert Group</div>
+  <script src="js/search/jquery-ui.min.js" type="text/javascript"></script>
+        <script src="js/search/plugins.js"></script>
+        <script src="js/search/app.js"></script>
+            <script src="js/search/jquery.lockfixed.js"></script>
+</body>
+</html>

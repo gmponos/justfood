@@ -1,0 +1,104 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Sriram</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>srirmam</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >Weekly Restaurant Order Report</td></tr><tr><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Restaurant</td><td class=xl24 width=64 >Order ID</td><td class=xl24 width=64 >Order Date</td><td class=xl24 width=64 >Order Price</td><td class=xl24 width=64 >Commision Rate</td><td class=xl24 width=64 >Order Type</td><td class=xl24 width=64 >Payment Method</td><td class=xl24 width=64 >Owner Name</td><td class=xl24 width=64 >Customer Name</td><td class=xl24 width=64 >Customer Email</td><td class=xl24 width=64 >Customer Address</td><td class=xl24 width=64 >Customer Phone</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4418574</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >84.59</td><td class=xl24 width=64 >8%=6.77</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4456778</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >84.59</td><td class=xl24 width=64 >8%=6.77</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM447450</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >-19.01</td><td class=xl24 width=64 >8%=-1.52</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4453781</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >-19.01</td><td class=xl24 width=64 >8%=-1.52</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4414878</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >-19.01</td><td class=xl24 width=64 >8%=-1.52</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4440138</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >39.19</td><td class=xl24 width=64 >8%=3.14</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM449321</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >13.88</td><td class=xl24 width=64 >8%=1.11</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM443079</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >111.04</td><td class=xl24 width=64 >8%=8.88</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM449131</td><td class=xl24 width=64 >2014-06-07</td><td class=xl24 width=64 >47.64</td><td class=xl24 width=64 >8%=3.81</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM4442113</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >34.79</td><td class=xl24 width=64 >8%=2.78</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >GM448674</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >418.99</td><td class=xl24 width=64 >8%=33.52</td><td class=xl24 width=64 >Home Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4489260</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >85.99</td><td class=xl24 width=64 >8%=6.88</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4448404</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >85.99</td><td class=xl24 width=64 >8%=6.88</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG444367</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >69.29</td><td class=xl24 width=64 >8%=5.54</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4478589</td><td class=xl24 width=64 >2014-06-05</td><td class=xl24 width=64 >49.99</td><td class=xl24 width=64 >8%=4.00</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4469240</td><td class=xl24 width=64 >2014-06-04</td><td class=xl24 width=64 >76.39</td><td class=xl24 width=64 >8%=6.11</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG446091</td><td class=xl24 width=64 >2014-06-04</td><td class=xl24 width=64 >153.54</td><td class=xl24 width=64 >8%=12.28</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >authorize.net</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4445448</td><td class=xl24 width=64 >2014-06-04</td><td class=xl24 width=64 >149.34</td><td class=xl24 width=64 >8%=11.95</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4432589</td><td class=xl24 width=64 >2014-06-03</td><td class=xl24 width=64 >470.40</td><td class=xl24 width=64 >8%=37.63</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG443986</td><td class=xl24 width=64 >2014-06-02</td><td class=xl24 width=64 >149.34</td><td class=xl24 width=64 >8%=11.95</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG44705</td><td class=xl24 width=64 >2014-06-01</td><td class=xl24 width=64 >223.54</td><td class=xl24 width=64 >8%=17.88</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >authorize.net</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4474811</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >1.74</td><td class=xl24 width=64 >8%=0.14</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG441789</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >-19.01</td><td class=xl24 width=64 >8%=-1.52</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >authorize.net</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4427044</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >2.89</td><td class=xl24 width=64 >8%=0.23</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >NanciCasson</td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >3025954091</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4430321</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >168.00</td><td class=xl24 width=64 >8%=13.44</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >Er DharmKaushal</td><td class=xl24 width=64 >dherm9454214684@gmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG443321</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >126.65</td><td class=xl24 width=64 >8%=10.13</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Paypal</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >Er DharmKaushal</td><td class=xl24 width=64 >dherm9454214684@gmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG441548</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >239.00</td><td class=xl24 width=64 >8%=19.12</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >Er DharmKaushal</td><td class=xl24 width=64 >dherm9454214684@gmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG442091</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >219.00</td><td class=xl24 width=64 >8%=17.52</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4442672</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >420.44</td><td class=xl24 width=64 >8%=33.64</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG448118</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >143.40</td><td class=xl24 width=64 >8%=11.47</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4461081</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >234.00</td><td class=xl24 width=64 >8%=18.72</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG44419</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >219.00</td><td class=xl24 width=64 >8%=17.52</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4408388</td><td class=xl24 width=64 >2014-05-30</td><td class=xl24 width=64 >146.25</td><td class=xl24 width=64 >8%=11.70</td><td class=xl24 width=64 >Home+Delivery</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 >rajKaushal</td><td class=xl24 width=64 >info@phpexpertgroup.com</td><td class=xl24 width=64 >512 New Kot Rakesh Marg</td><td class=xl24 width=64 >7428069025</td></tr><tr><td class=xl24 width=64 >Pizza Go Go</td><td class=xl24 width=64 >MG4450035</td><td class=xl24 width=64 >2014-05-29</td><td class=xl24 width=64 >429.85</td><td class=xl24 width=64 >8%=34.39</td><td class=xl24 width=64 >Pickup</td><td class=xl24 width=64 >Cash On Delivery</td><td class=xl24 width=64 >RajKaushal</td><td class=xl24 width=64 ></td><td class=xl24 width=64 >zbrandia@hotmail.com</td><td class=xl24 width=64 ></td><td class=xl24 width=64 ></td></tr>

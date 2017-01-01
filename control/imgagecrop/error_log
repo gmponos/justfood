@@ -1,0 +1,4 @@
+[04-Dec-2013 07:19:12] Tried to execute : convert 'images/theme-restaurant-banner.jpg' -resize 'x100' -size '100x100' xc:'transparent' +swap -gravity center -composite -quality '90' './cache/2b1d8169788ff3697796ba3d9f0d1dae_w100_h100_cp_sc.jpg', return code: 1, output: Array
+(
+)
+

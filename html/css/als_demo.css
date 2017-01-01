@@ -1,0 +1,86 @@
+/*************************************
+ * specific styling for #demo3
+ ************************************/
+/*************************************
+ * specific styling for #demo4
+ ************************************/
+
+#demo4 {
+	margin: 0px auto;
+}
+
+#demo4 .als-item {
+	min-height: 96px;
+	min-width: 124px;
+	text-align: center;
+}
+
+#demo4 .als-item img {
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#demo4 .als-prev, #demo4 .als-next {
+	top: 40px;
+}
+
+#demo4 .als-prev {
+	left: -25px;
+	/*margin-top:579px;*/
+}
+
+#demo4 .als-next {
+	right: -18px;
+	/*margin-top:579px;*/
+}
+
+
+
+
+
+.als-container {
+	position: relative;
+	width: 79%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: 31px;
+}
+
+.als-viewport {
+	position: relative;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.als-wrapper {
+	position: relative;
+	list-style: none;
+}
+
+.als-item {
+	position: relative;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+.als-prev, .als-next {
+	position: absolute;
+	cursor: pointer;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+

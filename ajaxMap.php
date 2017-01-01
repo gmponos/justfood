@@ -1,0 +1,1 @@
+<iframe width='350' height='300' frameborder='0' scrolling='no'  marginheight='0' marginwidth='0'   src='https://maps.google.com/maps?&amp;q="<?php echo $_GET['vote'];?>"&amp;output=embed'></iframe>

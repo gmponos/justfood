@@ -1,0 +1,80 @@
+/* SimpleModal Alert Modal Dialog */
+
+/* Overlay */
+#alert-overlay {background-color:#222;}
+
+/* Container */
+#alert-container {position:relative; width:25em; font: 16px/22px 'Trebuchet MS', Verdana, Arial; text-align:left; background:#fff; border:2px solid #336699;}
+#alert-container .header {height:1.8em; line-height:180%; background:#DA1010; color:#fff; font-weight:bold;padding-left:.5em;}
+#alert-container .message {color:#333; font-size:1.1em; margin:0; padding:.9em .3em .5em .5em;}
+#alert-container .button {position:relative; margin:.8em .5em 1em 25%; text-align:right;}
+#alert-container .button span {padding:.5em .8em;color:#222; font-weight:bold; text-align:center; background:#dadafb; border:1px solid #bbb; cursor:pointer;} 
+#alert-container .button span:hover {color:#fff;background:#0001da;}
+
+
+/* SimpleModal Confirm Modal Dialog */
+
+/* Overlay */
+#confirm-overlay {background-color:#222;}
+
+/* Container */
+#confirm-container {min-height:8em; width:25em; font: 16px/22px 'Trebuchet MS', Verdana, Arial; text-align:left; background:#fff; }
+#confirm-container .header {height:1.8em; line-height:180%; background:#DA1010; color:#fff; font-weight:bold;padding-left:.5em;}
+#confirm-container .message {color:#333; font-size:14px; margin:0; padding:.8em .2em .5em .5em;}
+#confirm-container .buttons {position:relative; line-height:26px; padding:1em .3em .5em 0; text-align:right;} 
+#confirm-container .buttons span {margin-right:.6em; padding:.3em .5em; color:#222; font-weight:bold; text-align:center; background:#dadafb; border:1px solid #bbb; cursor:pointer;} 
+#confirm-container .buttons span:hover {color:#fff;background:#DA1010;}
+
+
+/* SimpleModal Prompt Modal Dialog */
+
+/* Overlay */
+#prompt-overlay {background-color:#222;}
+
+/* Container */
+#prompt-container {position:relative;min-height:10em; width:26em; font: 16px/22px 'Trebuchet MS', Verdana, Arial; text-align:left; background:#fff; border:2px solid #336699;}
+#prompt-container .header {height:1.8em; line-height:180%; background:#DA1010; color:#fff; font-weight:bold;padding-left:.5em;}
+#prompt-container .message {color:#333; font-size:14px; margin:0; padding:12px 4px 12px 8px;}
+#prompt-container input {color:#11e; font-size:1.1em; display:block; margin:0 auto .5em 1em; background:#fefeeb; padding:.2em; border:1px solid #000;}
+#prompt-container .buttons {position:relative; line-height:26px; padding:10px 8px 0; text-align:right;} 
+#prompt-container .buttons span {margin-right:.5em; padding:.3em .5em; color:#222; font-weight:bold; text-align:center; background:#dadafb; border:1px solid #bbb; cursor:pointer;} 
+#prompt-container .buttons span:hover {color:#fff;background:#0001da;}
+
+
+/* SimpleModal Basic Modal Dialog */
+
+#basic-modal-content {display:none;}
+
+/* Overlay */
+#simplemodal-overlay {background-color:#222;}
+
+/* Container */
+#simplemodal-container {height:21em; width:35em; color:#070809; background-color:#fefefe; border:.4em solid #0001b0; padding:.7em;}
+#simplemodal-container .simplemodal-data {padding:.4em;}
+#simplemodal-container code {background:#fefe08; border-left:3px solid #65B43D; color:#0001be; display:block; font-size:12px; margin-bottom:.8em; padding:4px 6px 6px;}
+#simplemodal-container a {color:#ddd;}
+#simplemodal-container a.modalCloseImg {background:url(x.png) no-repeat; width:25px; height:29px; display:inline; z-index:3200; position:absolute; top:-15px; right:-16px; cursor:pointer;}
+#simplemodal-container h3 {color:#84b8d9;}
+#simplemodal-container .buttons {position:relative; line-height:26px; padding:10px 8px 0; text-align:right;} 
+#simplemodal-container .buttons span {margin-right:.5em; padding:.3em .5em; color:#222; font-weight:bold; text-align:center; background:#dadafb; border:1px solid #bbb; cursor:pointer;} 
+#simplemodal-container .buttons span:hover {color:#fff;background:#0001da;}
+
+
+/* SimpleModal OSX Style Modal Dialog */
+
+#osx-modal-content, #osx-modal-data {display:none;}
+
+/* Overlay */
+#osx-overlay {background-color:#111;}
+
+/* Container */
+#osx-container {background-color:#eee; color:#000; font: 16px/24px "Lucida Grande",Arial,sans-serif; padding-bottom:4px; width:600px; -moz-border-radius-bottomleft:6px; -webkit-border-bottom-left-radius:6px; -moz-border-radius-bottomright:6px; -webkit-border-bottom-right-radius:6px; border-radius:0 0 6px 6px; -moz-box-shadow:0 0 64px #000; -webkit-box-shadow:0 0 64px #000; box-shadow:0 0 64px #000;}
+#osx-container a {color:#ddd;}
+#osx-container #osx-modal-title {color:#000; background-color:#ddd; border-bottom:1px solid #ccc; font-weight:bold; padding:6px 8px; text-shadow:0 1px 0 #f4f4f4;}
+#osx-container .close {display:none; position:absolute; right:0; top:0;}
+#osx-container .close a {display:block; color:#777; font-weight:bold; padding:6px 12px 0; text-decoration:none; text-shadow:0 1px 0 #f4f4f4;}
+#osx-container .close a:hover {color:#000;}
+#osx-container #osx-modal-data {font-size:12px; padding:6px 12px;}
+#osx-container h2 {margin:10px 0 6px;}
+#osx-container p {margin-bottom:10px;}
+#osx-container span {color:#777;}

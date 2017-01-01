@@ -1,0 +1,131 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 1000px;
+}
+#header {
+ color: #333;
+ width: 980px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 30px;
+ margin: 10px 0px 0px 0px;
+ background:#CCC8B3;
+}
+#header1 {
+ color: #333;
+ width: 980px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 30px;
+ margin: 10px 0px 0px 0px;
+ background:#CCC8B3;
+}
+.button
+{
+background:url(../img/submit_button.png) no-repeat;
+height:34px;
+width:86px;
+cursor:pointer;
+border:0;
+}
+.textbox
+{
+border:#66CC33 solid 1px;
+}
+.textbox:focus
+{
+border:#FF0000 solid 1px;
+background-color:#99FFCC;
+}
+#navigation 
+{
+ float: left;
+ width: 1000px;
+ border: 1px solid #ccc;
+ margin: 0px 0px 0px 0px;
+ background-color:#2C5463;
+}
+/*-----------MENU-------------------*/
+ul {
+  font-family: Arial, Verdana;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+}
+li ul { display: none; }
+ul li a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border-top: 1px solid #ffffff;
+  padding: 5px 15px 5px 15px;
+  background: #2C5463;
+  margin-left: 1px;
+  white-space: nowrap;
+}
+ul li a:hover { background: #617F8A; }
+li:hover ul {
+  display: block;
+  position: absolute;
+}
+li:hover li {
+  float: none;
+  font-size: 11px;
+}
+li:hover a { background: #617F8A; }
+li:hover li a:hover { background: #95A9B1; }
+@charset "utf-8";
+
+
+#content { 
+ float: left;
+ color: #333;
+ border: 1px solid #ccc;
+ background:#C6FBA2;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height:auto;
+ width: 980px;
+ display: inline;
+}
+#footer {
+font-family:"Courier New", Courier, monospace;
+ width: 980px;
+ clear: both;
+ color:#CCCCCC;
+ border: 1px solid #ccc;
+ background-color:#2C5463;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
+#footer a
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+fieldset 
+{
+width:840px;
+border:1px solid #48A038;
+}
+
+legend {
+  padding: 0.2em 0.5em;
+  border:1px solid green;
+  color:green;
+  font-size:90%;
+  }
